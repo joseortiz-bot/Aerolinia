@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        :root {
+            --color-primary: #1b0088;
+            --color-secondary: #ffffff;
+        }
+
+        .navbar-light .navbar-nav .nav-link.active {
+            color: var(--color-primary);
+        }
+
+        .btn-primary {
+            background-color: var(--color-primary);
+            border-color: var(--color-primary);
+        }
+
+        .btn-secondary {
+            color: var(--color-secondary);
+        }
+        .jumbotron {
+            background-image: url('img/avion.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: white; /* Asegura que el texto sea legible en la imagen de fondo */
+        }
+        .btn-primary {
+    margin-bottom: 35px; /* Ajusta el valor según tu preferencia */
+}
+        </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">AEROLÍNEA VUELA LEJOS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="destinos.html">Destinos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hoteles.html">Hoteles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="centroAyuda.html">Centro de ayuda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">¡Viaja con nosotros a destinos increíbles!</h1>
+            <p class="lead">Descubre nuevas experiencias y aventuras.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Reserva tu vuelo</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Destinos populares</h2>
+                <p>Explora nuestros destinos más solicitados.</p>
+                <a class="btn btn-primary" href="destinos.html" role="button">Ver destinos</a>
+            </div>
+            <div class="col-md-4">
+                <h2>Hoteles asociados</h2>
+                <p>Disfruta de comodidad en nuestros hoteles.</p>
+                <a class="btn btn-primary" href="hoteles.html" role="button">Ver hoteles</a>
+            </div>
+            <div class="col-md-4">
+                <h2>¿Necesitas ayuda?</h2>
+                <p>Encuentra respuestas a tus preguntas.</p>
+                <a class="btn btn-primary" href="centroAyuda.html" role="button">Ir al centro de ayuda</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">© 2023 AEROLÍNEA VUELA LEJOS. Todos los derechos reservados.</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - AEROLÍNEA VUELA LEJOS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        :root {
+            --color-primary: #1b0088;
+            --color-secondary: #ffffff;
+        }
+
+        .navbar-light .navbar-nav .nav-link.active {
+            color: var(--color-primary);
+        }
+
+        .btn-primary {
+            background-color: var(--color-primary);
+            border-color: var(--color-primary);
+        }
+
+        .btn-secondary {
+            color: var(--color-secondary);
+        }
+        .btn-primary {
+    margin-bottom: 35px; /* Ajusta el valor según tu preferencia */
+}
+        </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">AEROLÍNEA VUELA LEJOS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="destinos.html">Destinos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hoteles.html">Hoteles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="centroAyuda.html">Centro de ayuda</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contacto<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Contáctanos</h2>
+                <p>Si tienes alguna pregunta o comentario, no dudes en contactarnos.</p>
+                <ul class="list-unstyled">
+                    <li><strong>Teléfono 1:</strong> <a href="tel:996040090">996040090</a></li>
+                    <li><strong>Teléfono 2:</strong> <a href="tel:996040091">996040091</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:contacto@aerolinea.cl">contacto@aerolinea.cl</a></li>
+                </ul>
+
+            </div>
+            <div class="col-md-6">
+                <h2>Envíanos un mensaje</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea class="form-control" id="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">© 2023 AEROLÍNEA VUELA LEJOS. Todos los derechos reservados.</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
